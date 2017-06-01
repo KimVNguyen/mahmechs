@@ -1,0 +1,15 @@
+{
+  "name": "mahmechs",
+  "version": "0.0.1",
+  "description": "a npm module for building mechs in battle tech",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.0.1",
+    "mocha": "^3.4.2"
+  }
+}
