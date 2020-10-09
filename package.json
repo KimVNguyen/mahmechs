@@ -1,7 +1,7 @@
 {
   "name": "mahmechs",
   "version": "0.0.1",
-  "description": "a npm module for building mechs in battle tech",
+  "description": "builder for mechs in battle tech",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
