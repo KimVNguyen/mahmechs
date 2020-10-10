@@ -3,10 +3,9 @@ version: '3.7'
 services:
   app:
     build: .
-    command: nodemon index.js
+    command: npm run dev
     stdin_open: true
     volumes:
       - .:/code
     environment:
       - CHOKIDAR_USEPOLLING=true
-    tty: true

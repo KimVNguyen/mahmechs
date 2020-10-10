@@ -10,8 +10,8 @@ RUN apt-get update && \
 RUN mkdir /code && \
   chown -R $USR:$USR /code/
 
-RUN npm install -g \
-  nodemon  
+# RUN npm install -g \
+#   nodemon  
 
 USER $USR:$USR 
 WORKDIR /code
