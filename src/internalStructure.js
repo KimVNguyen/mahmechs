@@ -6,6 +6,9 @@ module.exports = {
         return data[baseWeight];
     },
     calculateWeight: (baseWeight, endoSteel) => {
+        if (baseWeight < 20){
+            return undefined;
+        }
         endoSteel || (endoSteel = false);
         if (endoSteel) {
             return round((baseWeight /10)/2, 0.5 );
