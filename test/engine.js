@@ -24,7 +24,7 @@ describe('Engine Functions', function () {
         });
     });
     describe("Calculations", function () {
-        it ('should calculate engine raSting based upon walking speed and tonnage', function() {
+        it ('should calculate engine rating based upon walking speed and tonnage', function() {
             const rating = engine.calculateRating(50,6)
             assert.equal(rating, 300);
         });
