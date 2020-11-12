@@ -7,7 +7,4 @@ module.exports = {
     calculateRating: (tonnage, mp )=> {
         return (tonnage * mp)
     }
-
-
-
 }
