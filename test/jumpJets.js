@@ -50,7 +50,7 @@ describe('Jump Jet Functions', function () {
         });
         it ('should calculate the correct weight for 90-100 ton rangee', function() {
             const record = jumpJets.calculateWeight(100,"advanced", 5)
-            assert.equal(10, record);
+            assert.equal(20, record);
         });
     });
 });
